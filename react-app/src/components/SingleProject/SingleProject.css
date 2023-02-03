@@ -1,0 +1,258 @@
+
+
+.sp-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ button {
+    background-color: white;
+    border: none;
+}
+
+.sp-nav > div {
+    width: 15em;
+    display: flex;
+    justify-content: center;
+}
+
+.sp-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.oneProject-title {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    max-width: 70rem;
+    inline-size: 70rem;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+
+.sp-media-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.sp-main-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.sp-left-side-media {
+    width: 70%;
+    margin-right: 2em;
+}
+
+.sp-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 95%;
+}
+
+.sp-basic-budget {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sp-right-side-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sp-about-kickstarter {
+    display: flex;
+    width: 100%;
+    background-color: #F6F2EB;
+    height: 7em;
+}
+
+.sp-about-kickstarter > div {
+    display: flex;
+    /* border: .1em solid purple; */
+    width: 100%;
+
+}
+
+.sp-bottom-bar {
+    width: 40%;
+
+    display: flex;
+}
+
+.sp-outer-bottom-bar {
+    display: flex;
+    width: 100%;
+    height: 4em;
+    border-bottom: lightgrey solid 1px;
+
+    /* flex-direction: */
+    /* justify-content: flex-end; */
+}
+
+.sp-bottom-section {
+    display: flex;
+    width: 100%;
+}
+
+.sp-bottom-center {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+
+.sp-whole-page {
+    /* position: sticky;
+    top: 80px; */
+
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp-extra-outer-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+
+}
+
+.sp-green-bar {
+    max-width: 100%;
+    height: .5em;
+    background-color: #028858;
+}
+
+.sp-green {
+    color: #028858;
+}
+
+
+.sp-green-button {
+    width: 100%;
+    height: 3em;
+    background-color: #028858;
+    color: white;
+}
+
+.sp-remind-me {
+    width: 100%;
+    height: 3em;
+    border: lightgrey solid 1px;
+
+}
+
+
+
+.sp-about-kickstarter > div > i,p {
+    display: flex;
+    align-items: center;
+    margin: .5em;
+
+}
+
+.sp-bar-back {
+    width: 100%;
+    height: .5em;
+    background-color: lightgrey;
+
+}
+
+
+.sp-story {
+    border-bottom: lightgrey solid 1px;
+    padding-bottom: 1em;
+}
+
+
+.sp-bottom-left {
+    width: 10%;
+}
+
+.sp-location {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+
+.sp-delete-reward {
+    color: red;
+}
+
+
+.sp-css-fix {
+    white-space: pre-wrap; /* or pre-line */
+  }
+
+  .sp-profile-photo {
+    height: 3em;
+    width: 3em;
+    object-fit: cover;
+    border-radius: 50%;
+
+  }
+
+.sp-right-box {
+    height: 12em;
+    width: 12em;
+    border: lightgrey .1em solid;
+    padding: .5em;
+
+
+}
+
+.sp-outer-profile-photo {
+    height: 1em;
+    width: 12em;
+    /* border: purple .1em solid; */
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.sp-support-button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+.sp-broken {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sp-log-in-to-back {
+    display: flex;
+    align-items: center;
+    background-color: #028858;
+    justify-content: center;
+    padding-left: 10px;
+
+}
